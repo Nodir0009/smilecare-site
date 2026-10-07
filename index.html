@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmileCare — современная стоматология</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-tooth"></i>
+            </span>
+
+            <span>
+                Smile<span>Care</span>
+            </span>
+        </a>
+
+        <nav class="menu">
+
+            <a href="#about">О клинике</a>
+            <a href="#services">Услуги</a>
+            <a href="#doctors">Врачи</a>
+            <a href="#contacts">Контакты</a>
+
+        </nav>
+
+        <a href="#appointment" class="nav-button">
+            Записаться
+        </a>
+
+        <button class="mobile-menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                <i class="fa-solid fa-star"></i>
+                Современная стоматология
+            </div>
+
+            <h1>
+                Здоровая улыбка
+                <span>на каждый день</span>
+            </h1>
+
+            <p>
+                Заботимся о здоровье ваших зубов с помощью
+                современных технологий, опытных врачей
+                и комфортного лечения.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#appointment" class="primary-button">
+                    Записаться на приём
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#services" class="secondary-button">
+                    Наши услуги
+                </a>
+
+            </div>
+
+            <div class="hero-info">
+
+                <div>
+                    <strong>10+</strong>
+                    <span>лет опыта</span>
+                </div>
+
+                <div>
+                    <strong>5000+</strong>
+                    <span>пациентов</span>
+                </div>
+
+                <div>
+                    <strong>4.9</strong>
+                    <span>рейтинг</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="floating-card top-card">
+                <i class="fa-solid fa-shield-heart"></i>
+                <div>
+                    <strong>Безопасно</strong>
+                    <small>Современное оборудование</small>
+                </div>
+            </div>
+
+
+            <div class="doctor-image">
+
+                <div class="doctor-placeholder">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+            </div>
+
+
+            <div class="floating-card bottom-card">
+
+                <div class="avatar">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+                <div>
+                    <strong>Наши специалисты</strong>
+                    <small>Опытные врачи</small>
+                </div>
+
+                <span class="online">
+                    ●
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <div class="badge">
+                О нашей клинике
+            </div>
+
+            <h2>
+                Мы создаём улыбки,
+                <span>которыми хочется делиться</span>
+            </h2>
+
+            <p>
+                Наша задача — сделать лечение зубов комфортным,
+                понятным и доступным для каждого пациента.
+            </p>
+
+        </div>
+
+
+        <div class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+                <h3>Опытные врачи</h3>
+
+                <p>
+                    Специалисты с большим опытом работы
+                    и постоянным профессиональным развитием.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-microscope"></i>
+                </div>
+
+                <h3>Современные технологии</h3>
+
+                <p>
+                    Используем современное оборудование
+                    для точной диагностики и лечения.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <h3>Забота о пациенте</h3>
+
+                <p>
+                    Создаём спокойную атмосферу
+                    и индивидуальный подход.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <div class="badge">
+                Наши услуги
+            </div>
+
+            <h2>
+                Всё для здоровья
+                <span>ваших зубов</span>
+            </h2>
+
+            <p>
+                Полный спектр стоматологических услуг
+                в одном месте.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                </div>
+
+                <h3>Лечение зубов</h3>
+
+                <p>
+                    Лечение кариеса и восстановление
+                    повреждённых зубов.
+                </p>
+
+                <div class="price">
+                    от <strong>1 500 сом</strong>
+                </div>
+
+                <a href="#appointment">
+                    Подробнее
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+
+                <h3>Профессиональная чистка</h3>
+
+                <p>
+                    Удаление налёта и забота
+                    о здоровье дёсен.
+                </p>
+
+                <div class="price">
+                    от <strong>2 000 сом</strong>
+                </div>
+
+                <a href="#appointment">
+                    Подробнее
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-face-smile"></i>
+                </div>
+
+                <h3>Отбеливание</h3>
+
+                <p>
+                    Безопасное профессиональное
+                    отбеливание зубов.
+                </p>
+
+                <div class="price">
+                    от <strong>5 000 сом</strong>
+                </div>
+
+                <a href="#appointment">
+                    Подробнее
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <h3>Имплантация</h3>
+
+                <p>
+                    Восстановление отсутствующих зубов
+                    современными методами.
+                </p>
+
+                <div class="price">
+                    от <strong>20 000 сом</strong>
+                </div>
+
+                <a href="#appointment">
+                    Подробнее
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DOCTORS ================= -->
+
+<section class="doctors" id="doctors">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <div class="badge">
+                Наша команда
+            </div>
+
+            <h2>
+                Познакомьтесь с
+                <span>нашими врачами</span>
+            </h2>
+
+        </div>
+
+
+        <div class="doctor-grid">
+
+
+            <div class="doctor-card">
+
+                <div class="doctor-photo">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+                <div class="doctor-info">
+
+                    <h3>Иван Петров</h3>
+
+                    <p>Стоматолог-терапевт</p>
+
+                    <div class="experience">
+                        <i class="fa-solid fa-award"></i>
+                        10 лет опыта
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <div class="doctor-photo">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+                <div class="doctor-info">
+
+                    <h3>Анна Иванова</h3>
+
+                    <p>Стоматолог-хирург</p>
+
+                    <div class="experience">
+                        <i class="fa-solid fa-award"></i>
+                        8 лет опыта
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="doctor-card">
+
+                <div class="doctor-photo">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+
+                <div class="doctor-info">
+
+                    <h3>Мария Соколова</h3>
+
+                    <p>Детский стоматолог</p>
+
+                    <div class="experience">
+                        <i class="fa-solid fa-award"></i>
+                        7 лет опыта
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= APPOINTMENT ================= -->
+
+<section class="appointment" id="appointment">
+
+    <div class="container appointment-box">
+
+        <div>
+
+            <div class="badge white">
+                Запись на приём
+            </div>
+
+            <h2>
+                Начните заботиться
+                о своей улыбке уже сегодня
+            </h2>
+
+            <p>
+                Оставьте свои данные, и наш администратор
+                свяжется с вами.
+            </p>
+
+        </div>
+
+
+        <form id="appointmentForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Ваше имя"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="+996 ___ ___ ___"
+                required
+            >
+
+            <select id="service" required>
+
+                <option value="">
+                    Выберите услугу
+                </option>
+
+                <option>
+                    Лечение зубов
+                </option>
+
+                <option>
+                    Профессиональная чистка
+                </option>
+
+                <option>
+                    Отбеливание
+                </option>
+
+                <option>
+                    Имплантация
+                </option>
+
+            </select>
+
+            <button type="submit">
+                Отправить заявку
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACTS ================= -->
+
+<section class="contacts" id="contacts">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <div class="badge">
+                Контакты
+            </div>
+
+            <h2>
+                Мы всегда
+                <span>на связи</span>
+            </h2>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+                    <h3>Адрес</h3>
+                    <p>г. Жалал-Абад</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <div>
+                    <h3>Телефон</h3>
+                    <p>+996 700 123 456</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-clock"></i>
+
+                <div>
+                    <h3>Режим работы</h3>
+                    <p>Пн–Сб: 09:00–18:00</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer">
+
+        <div class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-tooth"></i>
+            </span>
+
+            Smile<span>Care</span>
+        </div>
+
+        <p>
+            © 2026 SmileCare. Все права защищены.
+        </p>
+
+        <div class="social">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= JS ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
